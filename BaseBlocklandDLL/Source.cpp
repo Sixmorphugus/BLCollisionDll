@@ -11,7 +11,7 @@ MologieDetours::Detour<ResolveCollisionVehicleFn>* Detour_ResolveCollisionVehicl
 BLFUNC(bool, __thiscall, ResolveContactsVehicle, Vehicle* obj, Rigid* rigid, CollisionList* collisionList, F32 dt);
 MologieDetours::Detour<ResolveContactsVehicleFn>* Detour_ResolveContactsVehicle;
 
-BLFUNC(bool, __thiscall, QueueCollision, ShapeBase* thisObj, SceneObject* obj, Point3F* vec);
+BLFUNC(bool, __thiscall, QueueCollision, ShapeBase* thisObj, ShapeBase* obj, Point3F* vec);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
